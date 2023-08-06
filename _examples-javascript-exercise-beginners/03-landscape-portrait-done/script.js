@@ -1,8 +1,8 @@
 console.log('3-landscape-portrait');
 
 function isLandscape(width, height){
-  // 3. ternary short syntax
-  return (width > height);
+  var landscape = width>height;
+  return landscape;
 }
 
 let checkWidthHeight1 = isLandscape(800, 600);
